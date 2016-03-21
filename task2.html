@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>任务二</title>
+<style>
+ body{margin: 0; color: #333; background-color: #eee; font-family: "microsoft yahei"; font-size: 16px;}
+        img{max-width: 100%;}
+        button{cursor: pointer}
+        /*global*/
+        header{background: #F00; padding: 10px 0}
+        footer{background: #000; color: #fff; text-align: center; line-height: 4em}
+        .h-nav{width: 1000px; margin: 0 auto}
+        .h-nav .logo{margin-left:-150px; width:200px;}/*注意空格*/
+        .h-nav{position:relative;}
+        .n-links{margin-right:-150px; padding:0; position: absolute; list-style-position: inside; right: 5px; top: 50%; margin-top: -1em; font-size: 12px;font-weight: bold;}
+        .n-links:after{content: ''; display: block; clear: both;}
+        .n-links li{float: left; margin-left: 5px;}
+        .n-links a{color: #fff; text-decoration: none}
+        .n-links a:visited{color: #fff}
+        /*文章区域*/
+        article{padding: 20px; margin: 20px 120px;background-color: #FFF; box-shadow: 2px 2px 2px #aaa }
+        article h1{font-size: 1.5em}
+        article h2{font-size: 1.3em; color: #777}
+        article .author, article .publish{color: #CCC}
+        article p{text-indent: 2em; font-size: 14px;}/*首行缩进2个字符*/
+        /*图片列表*/
+        .picture{list-style-type:none}
+        .picture h1{font-size: 12px;font-weight: normal}
+        .picture li{width: 120px; border: 1px #ccc solid; box-sizing: border-box; padding: 0 10px 10px 10px; text-align: center; margin-bottom: 20px;list-style-type:none;}
+        /*表格*/
+        table{border: 0; width: 100%; border-collapse: collapse}/*collapse表格的两边边框合并为一条*/
+        td, th{border: 0; padding: 5px; border: 1px #ccc solid; }
+        th{background: #333; color: #FFF; text-align: left}
+        tr:last-child{background: #CCC; font-weight: bold}
+        /*侧边栏*/
+        aside{box-sizing:border-box; padding: 20px; margin: 20px 140px; background-color: #fff; box-shadow: 2px 2px 2px #aaa; margin-bottom: 10px;}
+        aside h3{border-left: 3px #ccc solid; line-height: 2em; padding-left: 10px; margin: 0;}
+        aside input, aside textarea{border: 1px #999 solid; outline: none; }
+        aside input{padding: 3px}
+        aside textarea{height: 50px; width: 400px; }
+        aside button{background:#03F; line-height: 3em; border-radius: 5px; border: 0; outline: none;font-size :14px; font-family: "microsoft yahei"; color: #fff; width: 100%; margin-top:20px;}
+        aside form>div{margin:10px 0;}/* form>div是什么意思？ */
+        aside .a{width: 30%; display: inline-block; vertical-align: bottom; text-align: right; margin-top:10px; margin-right:10px; font-size: 14px; font-weight: bold;}
+        aside .b{margin-left: 30%; padding-left: 10px; margin-top:5px;}
+
+</style>
+</head>
+<body>
+  <header>
+  <nav class="h-nav">
+    <!--nav标签定义导航链接部分 HTML5新增的标签-->
+    <div class="logo"><img src="http://ife.baidu.com/asset/img/logo.png" alt="logo"></div>
+    <ul class="n-links">
+          <li><a href="#">导航链接一</a></li>
+            <li><a href="#">导航链接二</a></li>
+            <li><a href="#">导航链接三</a></li>
+            <li><a href="#">导航链接四</a></li>
+    </ul>
+  </nav>
+  </header>
+    <div class="content">
+    <article>
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <address><span class="author">文章作者</span>  <span class="publish">文章发表时间</span></address>
+        <p>徐志摩（1897年1月15日—1931年11月19日），现代诗人、散文家。原名章垿，字槱森，留学英国时改名志摩。新月派代表诗人。先后就读于上海沪江大学、天津北洋大学和北京大学。1918年赴美留学学习经济，1921年赴英国留学，入剑桥大学当特别生，研究政治经济学。在剑桥两年深受西方教育的熏陶及欧美浪漫主义和唯美派诗人的影响。1923年成立新月社。1924年任北京大学教授。<a href="http://ife.baidu.com">链接到：百度前端学院</a>1926年任光华大学、大夏大学和南京中央大学（1949年更名为南京大学）教授。1930年辞去了上海和南京的职务，应胡适之邀，再度任北京大学教授，兼北京女子师范大学教授。1931年11月19日因飞机失事罹难。代表作品有《再别康桥》《翡冷翠的一夜》等。</p>
+        <img src="img/01.jpg">
+        <p>《再别康桥》是现代诗人徐志摩脍炙人口的诗篇，是新月派诗歌的代表作品。<a href="http://ife.baidu.com">链接到：百度前端学院</a>全诗以离别康桥时感情起伏为线索，抒发了对康桥依依惜别的深情。语言轻盈柔和，形式精巧圆熟，诗人用虚实相间的手法，描绘了一幅幅流动的画面，构成了一处处美妙的意境，细致入微地将诗人对康桥的爱恋，对往昔生活的憧憬，对眼前的无可奈何的离愁，表现得真挚、浓郁、隽永，是徐志摩诗作中的绝唱。张幼仪出身江苏名门，受过新式教育，她性情温和善良，长相明眸清丽，知书达理又遵传统守孝道，她对徐志摩并不了解，他们的婚姻，是父母定下来的。15岁的张幼仪就辍学嫁到浙江做了少奶奶。婚后不久，长子徐积锴出生.徐志摩便赴英国读书。其时，徐志摩一心追求林徽因，拒不接受张幼仪苦劝和阻挠，提出离婚。虽然身怀有孕，张幼仪还是慨然应允徐志摩，结束了他们七年的婚姻。张幼仪在离婚之后，远赴德国柏林，学习德语，并入裴斯塔洛齐学院攻读幼儿教育。
+　　    徐志摩在36岁不幸飞机遇难，作为前妻，张幼仪还无怨无悔地尽责，养育他们的孩子，以女儿的身份照顾着她的前公婆。徐志摩在
+        </p>
+    </article>
+    <article>
+        <h2>第二篇文章一级标题</h2>
+        <h3>第二篇文章二级标题</h3>
+        <address>文章作者  文章发表时间</address>
+        <p>阿尔法围棋（AlphaGo）是一款围棋人工智能程序，由位于英国伦敦的谷歌（Google）旗下DeepMind公司的戴维·西尔弗、艾佳·黄和戴密斯·哈萨比斯与他们的团队开发，这个程序利用“价值网络”去计算局面，用“策略网络”去选择下子。<a href="http://ife.baidu.com">链接到：百度前端学院</a>2015年10月阿尔法围棋以5:0完胜欧洲围棋冠军、职业二段选手樊麾；2016年3月对战世界围棋冠军、职业九段选手李世石，并以4:1的总比分获胜</p>
+        <img src="img/01.jpg">
+        <ul>
+          <li>列表项一</li>
+          <li>列表项二</li>
+          <li>列表项三</li>
+        </ul>
+    </article>
+    <article>
+        <h2>图片</h2>
+        <ul class="picture">
+          <li>
+            <h1>美图</h1>
+            <img src="img/01.jpg"></li>
+          </li>
+          <li>
+            <h1>美图</h1>
+            <img src="img/01.jpg"></li>
+          </li>
+          <li>
+            <h1>美图</h1>
+            <img src="img/01.jpg"></li>
+          </li>
+          <li>
+            <h1>美图</h1>
+            <img src="img/01.jpg"></li>
+          </li>
+          </ul>
+
+    </article>
+    <article>
+      <h2>最后文章标题</h2>
+      <h3>文章二级标题</h3>
+      <address>作者  时间</address>
+      <ol>
+        <li>排名一</li>
+        <li>排名一</li>
+        <li>排名一</li>
+      </ol>
+      <p>下面是border为1的表格</p>
+      <table border="1">
+        <thead>
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>内容单元格</td>
+              <td>内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+              <td>内容单元格</td>
+              <td>内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+              <td>内容单元格</td>
+              <td>内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+              <td>内容单元格</td>
+              <td>内容单元格</td>
+              <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+              <td>总计</td>
+              <td colspan="2">1000</td>
+            </tr>
+        </tbody>
+      </table>
+    </article>
+    </div>
+    <aside>
+        <h3>这里以后是一个侧栏  这是侧栏的标题</h3>
+        <form action=""  method="post">
+        <!--
+        action是转向地址，即form表单需要提交到哪里
+        post:官方解释是把数据通过post会话传送到服务器。实际就是提交数据。
+        get:将表单中数据的按照variable=value的形式，添加到action所指向的URL后面，并且两者使用“?”连接，而各个变量之间使用“&”连接；一般用来从服务器得到数据。
+         -->
+        <div><div class="a">邮箱地址：</div><input type="email" value="文本框" /></div>
+        <div class="b">邮箱按格式输入</div>
+        <div><div class="a">密码：</div><input type="password" value="密码" /></div>
+        <div><div class="a">重新输入密码：</div><input type="password" value="密码" /><div>
+        <div class="b">密码6-16位英文数字</div>
+        <div>
+        <div class="a">性别：</div><input type="radio" name="性别" value="男" id="man" checked>男
+        <input type="radio" name="性别" value="男" id="woman">女
+        </div>
+        <div>
+        <div class="a">  城市：</div>
+        <select>
+            <option value="北京">北京</option>
+            <option value="江苏">江苏</option>
+            <option value="湖南">湖南</option>
+        </select>
+        </div>
+        <div>
+        <div class="a">爱好：</div>
+        <input type="checkbox" name="爱好" value="运动">运动
+        <input type="checkbox" name="爱好" value="艺术">艺术
+        <input type="checkbox" name="爱好" value="科技">科技
+        </div>
+        <div>
+        <div class="a">个人描述：</div><textarea>这是一个多行输入框 请进行个人描述</textarea>
+        </div>
+        
+        <div><button type="submit">确认提交</button></div>
+        </form>
+    </aside>
+    <footer>
+    版权所有&copy;
+    </footer>
+</body>
+</html>
