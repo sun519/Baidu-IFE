@@ -1,0 +1,44 @@
+body{
+	padding:20px;
+	margin:0;
+}
+#box{
+	border: 1px solid #999;
+	padding:20px;
+	background-color: #eee;	
+	overflow:auto; zoom:1
+	/*自适应子元素高度*/
+}
+.left{
+	width:160px;
+	border:1px solid #999;
+	padding:20px;
+	float:left;
+	background-color: white;	
+}
+.left span{
+	font-weight: bold;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	text-align: center;
+	margin-left: 3px;
+}
+.right{
+	width:120px;
+	border:1px solid #999;
+	padding: 20px;
+	float:right;
+	background-color: white;
+}
+.picture{
+    margin-top: 1em;
+    padding:0 20px;
+}
+.center{
+	border:1px solid #999;
+	padding:20px;	
+	background-color: white;
+	position:relative;
+    margin-left: 240px;
+	margin-right: 200px;
+}
