@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html  charset=utf-8">
+	<title>任务四</title>
+	<style>
+	.test{
+		width:400px;
+		height:200px;
+		background-color: #ccc;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin:-100px 0 0 -200px;
+		overflow: hidden;/*overflow 属性规定当内容溢出元素框时发生的事情 */
+	}
+	/*要让DIV水平和垂直居中，必需知道该DIV得宽度和高度，然后设置位置为绝对位置，距离页面窗口左边框和上边框的距离设置为50%，这个50%就是指页面窗口的宽度和高度的50%，最后将该DIV分别左移和上移，左移和上移的大小就是该DIV宽度和高度的一半。*/
+	.circle { 
+		position:absolute;
+		width: 100px; 
+		height: 100px; 
+		background: #fc0; 
+		-moz-border-radius: 50px; 	/*-moz-border-radius：moz这个属性 主要是专门支持Mozilla Firefox 火狐浏览器的CSS属性。*/
+		-webkit-border-radius: 50px; /*-webkit-border-radius：苹果；谷歌，等一些浏览器认，因为他们都用的是webkit内核；*/
+		border-radius: 50px; 
+	} 
+	.topc {
+		left:-50px;
+		top:-50px;
+	}
+	.bottomc {
+		right:-50px;
+		bottom:-50px;
+	}
+	/*这里是确定圆心*/
+</style>
+</head>
+
+<body>
+	<div class="test">
+			<div class="circle topc"></div>
+			<div class="circle bottomc"></div>
+		</div>
+	</div>
+</body>
+</html>
