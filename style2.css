@@ -1,0 +1,465 @@
+*{margin:0;padding:0;}
+/*
+*{margin:0; padding:0;} 像2L所说body,ul,li,p,h1~h6,dd,dt 等等
+都有默认的margin 或padding值的，加上这句就可以删除浏览器这些默认值，方面后面的设置。
+ */
+#main{
+	width:980px;
+	height:1386px;
+	margin:0 auto;
+	border:1px solid #ccc;
+
+}
+#head{
+	width:892px;
+	height:61px;
+	margin:0 auto;
+	border-bottom: 2px solid #938e83;/*这个是画底部实线*/
+}
+#bgc{
+	height:61px;
+	width:110px;
+	background-color: #d45d5c;
+}
+#text-left{
+	font-size: 12px;
+	font-family: "黑体";
+	color: #ffffff;
+	float:left;
+	margin-top: 45px;/*这里为什么写margin-bottom:0就没有用?*/
+}
+#text-right{
+	font-size: 12px;
+	font-family: "黑体";
+	color:#d45d5c;
+	float:right;
+	margin-right:0;
+	margin-top: -14px;
+}
+
+#second{
+	margin:44px;
+	width:892px;
+	height:301px;
+	float:left;
+}
+#s-picture{
+	position:absolute;
+	width:641px;
+	height:301px;
+}
+#img1{
+	width:641px; 
+	height:301px;
+}
+#s-p-left{
+	width:191px;
+	height:301px;
+	position:absolute;/*这里不写绝对定位div就跑到下面了*/
+	float:left;
+	background:green;
+	opacity:0.30;/*设置不透明级别 数字越大越不透明*/
+	top:0px;
+	left:0px;
+}
+#s-p-right{
+	width:191px;
+	height:301px;
+	position:absolute;/*这里不写绝对定位div就跑到下面了*/
+	float:right;
+	background:red;
+	opacity:0.30;/*设置不透明级别 数字越大越不透明*/
+	top:0px;
+	right:0px;
+}
+#s-text{
+	float:right;
+	width:203px;
+	height:301px;
+	border-top:2px solid #cc8091;
+	position:relative;
+}
+.title{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color:#000000;
+	line-height:40px; /*设置段落间距*/
+	font-variant:small-caps;/*小写字母均会被转换为大写*/
+	text-decoration:underline;/*下划线*/
+	text-transform:capitalize;/*文本中的每个单词以大写字母开头*/
+}
+.content{
+	font-size: 12px;
+	font-family:"楷体";
+	color:#676767;
+	line-height:10px;
+}
+#num1{
+	font-size: 116px;
+	font-family:"微软雅黑";
+	color:#75b86b;
+	font-style:oblique;/*设置字体倾斜*/
+}
+#num2{
+	position:absolute;
+	bottom:-10px;
+	left:0; 
+	font-size: 55px;
+	font-family:"微软雅黑";
+	color:#cc8091;
+}
+#txt1{
+	font-size: 21px;
+	font-family:"微软雅黑";
+	color:#cc8091;
+	position:absolute;
+	bottom:10px;
+	left:80px;
+}
+#txt2{
+	font-size: 12px;
+	font-family:"微软雅黑";
+	color:#cc8091;
+	position:absolute;
+	bottom:0;
+	left:80px;
+}
+
+#three{
+	width:892px;
+	float:left;
+	margin-left: 44px;
+	margin-bottom: 44px;
+}
+#what{
+	float:left;
+	width:200px;
+	margin-right:15px;
+}
+#what p{
+	font-size:12px;
+	font-family:"宋体";
+	color:#767777;
+	line-height: 16px;
+}
+#what h2{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#418c59;
+	font-weight:bold;
+	text-decoration: underline;
+}
+#when{
+	float:left;
+	width:200px;
+	margin-right:15px;
+}
+#when p{
+	font-size:12px;
+	font-family:"宋体";
+	color:#767777;
+	line-height: 16px;
+	opacity: 0.7;
+}
+#when h2{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#d2994f;
+	font-weight:bold;
+	text-decoration: underline; 
+}
+#how{
+	float:left;
+	width:200px;
+}
+#how p{
+	font-size:12px;
+	font-family:"宋体";
+	color:#767777;
+	line-height: 16px;
+}
+#how h2{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#cc7680;
+	font-weight:bold;
+	text-decoration: underline;
+}
+.alf4{
+	position: relative;
+	top:10px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#767777;
+	font-weight:bold;
+	line-height:16px;
+}
+.alf4 span{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#cd4a48;
+	font-weight:bold;
+	line-height:16px;
+	font-style: oblique;
+	opacity:0.7;
+}
+
+#four{
+	margin:44px;
+	width:892px;
+/*这里千万不能再写一个float:left; 这个是f-left和f-right的父元素 这两个在它的上部浮动  在这个问题上卡了好久 找不到原因！！！！*/
+}
+#f-left{
+	float:left;
+	width:415px;
+}
+#f-left-up{
+	width:415px;
+	border-bottom:2px solid;
+}
+#f-t{
+	font-size: 72px;
+	font-family: "黑体";
+	color:#f5e327;
+	font-weight:bold;
+	font-style: oblique;
+}
+#f-t1{
+	font-size: 42px;
+	font-family: "黑体";
+	color:#11456b;
+	font-weight:bold;
+	line-height: 16px;
+	margin-left:20px;
+}
+#f-o{
+	font-size: 42px;
+	font-family: "黑体";
+	color:#11456b;
+	font-weight:bold;
+	line-height: 16px;
+	margin-left:16px;
+}
+#f-left-up h2{
+	font-size: 33px;
+	font-family: "黑体";
+	color:#11456b;
+	font-weight:bold;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+#f-left-down{
+	width:415px;
+	padding: 10px 0px;
+	margin-top: 20px;
+	position: relative;
+}
+#f-left-down p:first-letter {
+	font-size: 70px;
+	font-family: "微软雅黑";
+	color:#f5e327;
+	line-height: 70px;
+	float:left;/*这个float千万不要丢掉*/
+}
+#f-left-down p{
+	clear:both;
+	text-indent: 0;
+	font-size: 12px;
+	font-family: "宋体";
+	color:#767777;
+	line-height: 16px;
+	margin-top:20px;
+}
+#af{
+	float: right;
+	width:200px;
+	height:250px;
+	margin: 10px 0px 10px 10px;
+}
+#p-2{
+	width:415px;
+	text-indent: 2em;
+	font-size: 12px;
+	font-family: "宋体";
+	color:#767777;
+	line-height: 16px;
+	margin-top:5px;
+}
+#f-right{
+	 float:right;/*写float的原因是能保证与f-left在同一行 只要有旁边空白面积大于自身面积就可以*/
+	 width: 458px;
+ 	 height: 275px;
+ 	 position:relative;
+}
+#f-bgc{
+	width: 458px;
+ 	 height: 275px;
+}
+#f-b-i{
+	width: 458px;
+ 	height: 275px;
+ 	margin-left: -30px;
+ }
+#img2-text{
+	width:458px;
+	height:61px;
+	margin-left: -30px;
+	position: absolute;
+	background:#000;
+	opacity: 0.6;
+	bottom: 0px;
+}
+#img2-text p{
+	font-size: 25px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	line-height: 140%;
+	margin-top: 10px;
+	margin-left: 25px;
+	border-left:3px solid #72b16a;
+	height:44px;
+	text-indent: 0.5em;
+}
+#img2-text span{
+	font-size: 12px;
+	color:#72b16a;
+	font-family: "微软雅黑";
+	font-style: oblique;
+	line-height: 140%;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#f-r-d{
+	float:left;/*写float的原因是能保证与f-left在同一行 只要有旁边空白面积大于自身面积就可以*/
+	width: 459px;
+	height:318px;
+	margin-left: -30px;/*当写float:left时，写margin-left才有用 写margin-right之类的没用！！！！ 切记！！！*/
+	margin-top:20px; 
+	background-color: #eeeed6;
+ 	position:relative;
+}
+#text ul{
+
+}
+#text ul li{
+	font-size: 16px;
+	color:#5a5b5b;
+	font-family: "宋体";
+ 	text-align: left;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.mark{
+	font: 12px
+	color:#5a5b5b;
+	font-family: "宋体";
+	font-style: oblique;
+	text-align: right;
+	line-height: 20px;
+}
+#f-l{
+	width:260px;
+	height:160px;
+	background-color: #ffffff;
+	background: #d55d5c; 
+	position: absolute;
+	left:0;/*这里为什么不能写margin-left??*/
+	bottom:0;
+}
+#f-n0{
+	/*
+	float：left;
+	font-size: 110px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	border-right:2px solid #fff;
+	height:86px;
+	line-height: 86px;
+	margin:37px 10px;
+	*/
+	  float: left;
+	  font-size: 110px;
+	  color: #ffffff;
+	  font-family: "微软雅黑";
+	  border-right:2px solid #fff;
+	  height: 86px;
+	  line-height: 86px;
+	  margin:37px 10px;  
+}
+#f-n1{
+	margin-top:37px; 
+	font-size: 21px;
+	color: #ffffff;
+	font-family: "黑体";
+	font-style: oblique;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+#f-n2{
+	margin-top:5px; 
+	font-size: 21px;
+	color: #ffffff;
+	font-family: "黑体";
+	font-style: oblique;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+#f-n3{
+	margin-top:5px;
+	font-size: 12px;
+	font-family: "黑体";
+	line-height: 10px;
+	color: #ffffff;
+}
+#f-n4{
+	margin-top:2px;
+	font-size: 12px;
+	font-family: "黑体";
+	line-height: 10px;
+	color: #ffffff;
+}
+#f-r{
+	float:right;
+	width:178px;
+	position:relative;
+}
+
+.yh1{
+	font-size: 72px;
+	font-family: "黑体";
+	color: #d45d5c;
+	line-height: 30px;
+	position: absolute;
+	bottom: 70px;
+	right: 150px;
+}
+.yh2{
+	font-size: 72px;
+	font-family: "黑体";
+	color: #d45d5c;
+	line-height: 30px;
+	position: absolute;
+			bottom: -35px;
+			right: -20px;
+}
+
+#f-r p{
+	margin-top: 30px;
+	font-size: 14px;
+		color: #5a5b5b;
+		font-family: "黑体";
+		font-style: oblique;
+		line-height: 16px;
+		text-indent: 3em;
+}
+#foot{
+	float: left;
+	border-top: 1px solid #938e8c;
+	width: 892px;
+	margin-top: 44px;
+	margin-left: 44px;
+	text-align: right;
+	font-size: 12px;
+	color:#d45d5c;
+	font-family: "黑体";
+}
