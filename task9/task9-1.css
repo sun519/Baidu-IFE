@@ -1,0 +1,170 @@
+*{margin:0;padding:0;font-family: "微软雅黑"}
+body{overflow-x:hidden }/*隐藏横向滚动条*/
+header{height:56px;background-color: #2189bf}
+.main{width:100%;}
+.logo{position:relative;left:85px; top: 10px;}
+.right input{display: inline-block;position:relative;float:right;width:273px;height:28px;border-radius:14px;padding-left:35px;outline:none;bottom:25px;right:140px; background:#fff url(image/zoom.png) no-repeat 17px 4px;line-height:28px;}
+.right a{display: inline-block;position:relative;float:right;left:210px;bottom:20px;font-size: 14px;color:#fff;text-decoration: none;padding-left:40px;background:url(image/login.png) no-repeat 20px 0;}/*padding-left:40px;是图片与文字的距离*/
+
+.contain{position:absolute;width:100%;height:1220px;background:#eeeeed;}
+.contain .c-left{position:relative;float:left;background:#2a2e3d;width:21%;height:1220px;}
+.c-left .circle{position:relative;border-radius: 50%;width: 55px;height: 55px;border: 1px solid #e8e7e7;top:20px;left:50px;display:inline-block;text-align: center;font-size: 0;line-height: 55px;}
+.c-left .circle .circle2{position:relative;display:inline-block;border-radius: 50%;width: 50px;height: 50px;background: #b9babd;vertical-align: middle;top:2px;}
+.c-left .abc{position:absolute;left:130px;top:40px;color:#fff;}
+.save{position:relative;top:50px;}
+.save .list1{float:left;width:49%;display: inline-block;border-right: 3px solid #373d4d;}
+.save .list2{float:left;width:49%;}
+.save p{color:#b9babd;text-align: center;font-size: 14px;}
+.c-left .doc{position:relative;height:210px;background:#373d4d;top:110px;}
+.doc .gr{position:absolute;color:#fff;top:15px;left:50px;font-size: 14px;padding-left:30px;background:url(image/file_open.png) no-repeat 0 5px;}
+.doc ul li{list-style: none;padding-bottom: 15px;}
+.doc a{position:relative;text-decoration: none;left:115px;font-size: 14px;color:#fff;padding-left:10px;background:url(image/file_close.png) no-repeat 0 5px;}
+.doc .l1 a{color:#5f6e82;background:url(image/close_arrow.png) no-repeat ;background:url(image/file_close.png) no-repeat 0 5px;}
+.doc .l3 a{color:#5f6e82;}
+.doc .l2 .doc-1 .p1{position:relative;left:140px;font-size: 14px;top:5px;color:#fff;}
+.doc .l2 .doc-1 .p2{position:relative;left:140px;font-size: 14px;top:10px;color:#5f6e82;}
+.c-left .mlist{position:relative;height:630px;top:110px;}
+.c-left .mlist ul li a{list-style: none;position:relative;text-decoration: none;left:50px;font-size: 14px;color:#5f6e82;line-height: 45px;}
+.c-left .mlist .xin a{padding-left:30px;background:url(image/star.png) no-repeat 0 5px;}
+.c-left .mlist .di a{padding-left:30px;background:url(image/share.png) no-repeat 0 5px;}
+.c-left .mlist .tu a{padding-left:30px;background:url(image/user_info.png) no-repeat 0 5px;}
+
+.contain .c-right{position:relative;float:left;width:79%;height:1220px;background:#eeeeed;}
+.contain .c-right .top{position:relative;width:100%;height:35px;background:#fff;}
+.top ul li {position:relative;float:left;list-style:none;left:30px;}
+.top ul li a{position:relative;text-decoration: none;font-size: 14px;color:#afafaf;margin:auto 5px;top:5px;}
+.top .list2 a{color:blue;}
+
+.second{position:relative;width:890px;height:90px;background:#fff;margin-top: 20px;margin-left: 75px;}
+.second .cx{float:left;position:relative;top:17px;margin-left:30px; }
+.second span{font-size: 14px;color:#afafaf;}
+.second .cx select{width: 70px;height:25px;}
+.second .mm{float:left;position:relative;top:17px;margin-left:40px;}
+.second .mm select{width:120px;height:25px;margin-bottom: 5px;}
+.second .mm .huan{float:left;position:relative;text-decoration: none;font-size: 14px;left:140px;bottom:45px;color:#fff;padding-left:14px;background:url(image/change.png) no-repeat center;}
+.second .dl{float:left;position:relative;top:17px;margin-left:65px;}
+.second .dl select{width:120px;height:25px;margin-bottom: 5px;}
+/*.2{width:20px;height:25px;}*/
+.second .zc{float:left;position:relative;top:17px;margin-left:38px;}
+.second .zc select{width:70px;height:25px;margin-bottom: 5px;}
+.second input{float:left;position:relative;margin-left:30px; width:50px;height:30px;background-color:#388ac1;border:0;top:30px;color: #fff;border-radius: 5px;}/*border-radius: 5px;设置边角为圆形*/
+
+.three{position:relative;width:890px;height: 70px;background:#eeeeed;margin-top: 10px;margin-left: 75px;}
+.three .l1{float:left;width:33px;height:70px; background:#fff;content:url(image/close_arrow.png) no-repeat center;}/*有问题*/
+.three .l2{float:left;width:110px;height:70px;background:#fff;text-align:center;margin-left: 5px;font-size: 14px;}
+.three .l2 .blue{width: 110px;height:5px;background: #388ac1;}
+.three .l2 p{position:relative;top:5px;line-height: 30px;}
+.three .red{position:relative;font-size:18px;color:#f07d02;}
+.three .gray{position:relative;font-size:14px;color:#aeaebf;}
+.three .l3{float:left;width:110px;height:70px;background:#fff;text-align:center;margin-left: 5px;font-size: 14px;}
+.three .l3 p{position:relative;top:10px;line-height: 30px;}
+.three .l4{float:left;width:33px;height:70px;margin-left: 5px; background:#fff;content:url(image/close_arrow.png) no-repeat center;}/*有问题*/
+.three .l5{float:left;width:124px;height:70px;background:#fff;text-align:center; margin-left: 5px;}
+.three .l5 p{position:relative;top:10px;line-height: 30px;top:15px;font-size: 14px;}
+
+.four{position:relative;width:890px;height: 70px;background:#eeeeed;margin-top: 45px;margin-left: 75px;}
+.four p{position:relative;line-height: 15px;top:20px;left:10px;font-size: 14px;}
+.four .f1{float:left;position:relative;width:200px;height:70px;background: #fff;}
+.four .f1 .green{float:left;width:5px;height:70px;background:#43b29d;}
+.four span{position:relative;top:-20px;left:-5px;font-size: 14px;}
+.four .p1{position:absolute;top:20px;left:10px;font-size: 14px;}
+.four .fp2{position:absolute;color:#b4b4b4;top:45px;font-size: 14px;}
+.four .fp{position:relative;color:#b4b4b4;top:30px;font-size: 14px;}
+.four .f1 .big-green{float:left;position:absolute;width:60px;height:50px;background: #43b29d;top:10px;left:125px;}
+.four .f2{float:left;position:relative;width:200px;height:70px;background: #fff;margin-left: 30px;}
+.four .f2 .blue{float:left;width:5px;height:70px;background:#388ac1;}
+.four .f2 .big-blue{float:left;position:absolute;width:60px;height:50px;background: #388ac1;top:10px;left:125px;}
+.four .f3{float:left;position:relative;width:200px;height:70px;background: #fff;margin-left: 30px;}
+.four .f3 .red{float:left;width:5px;height:70px;background:#d04b36;}
+.four .f3 .big-red{float:left;position:absolute;width:60px;height:50px;background: #d04b36;top:10px;left:125px;}
+.four .f4{float:left;position:relative;width:200px;height:70px;background: #fff;margin-left: 30px;}
+.four .f4 .yellow{float:left;width:5px;height:70px;background:#e2cd46;}
+.four .f4 .big-yellow{float:left;position:absolute;width:60px;height:50px;background: #e2cd46;top:10px;left:125px;}
+
+.five{position:relative;width:890px;height:390px;background:#eeeeed;margin-top: 15px;margin-left: 75px;}
+.five .f-left{width:530px;}/*overflow: hidden;隐藏溢出部分*/
+.five .f-left .top2{float: left;width:100%; height:390px;background: #fff;border: 1px solid #ced1d4;border-radius: 5px;overflow: hidden;}
+.f-left .top2 p{position:relative;top:15px;left:20px;font-size: 14px;color:#b7aab7;}
+
+
+.tb-munu {position:relative;padding-top: 20px;height:27px;left:20px;}
+.tb-munu .li2{float:left; margin-right: 3px;}
+
+.tb-munu label{cursor: pointer;width:86px;height:27px;display: block;text-align: center;line-height: 27px;background: #ededf0;border:1px solid #ededf0;border-radius: 5px 5px 0 0;color:#535353;}/*cursor: pointer;鼠标滑过显示小手*/
+.tb-munu input,.tb-munu div{display: none;}
+/*下面这两段是关于内部表格的设置？*/
+.tb-munu table{width:100%;text-align: center;font-size: 14px; border-color:#dddddd;line-height: 28px;border-collapse: collapse;border-spacing: 0;}/*border-collapse: collapse;消除边框的 表格的两个边框合并为一条*/
+.tb-munu table td:hover{background:#f4f6f7;}
+.tb-munu [id^='tab']:checked ~ [id^='munu']{display: block;position:absolute;width:403px;border: 1px solid #cacbcb;border-radius:0 5px 5px;padding:28px 49px 35px 38px;left:0;top:48px;}
+.tb-munu [id^='tab']:checked~label{position: relative;z-index: 1;border:1px solid #cacbcb;border-bottom: none;background: #fff;height:28px;}
+
+.five .f-right{position:relative;float:left;width:345px;height:390px;margin-left: 10px;background: #fff;border: 1px solid #ced1d4;border-radius: 5px;overflow: hidden;}
+.five .f-right .top3{width:100%;height:40px;background:#f4f5f6;font-size: 14px;color:#b1b1b1;}
+.five .f-right .top3 p{position:relative;top:10px;left:20px;}
+.f-right .r-list ul li{position: relative; list-style: none;font-size: 14px;top:20px;}
+.r-list .r1{ position:relative;color:#c8c9c9; left:35px;}
+.r-list .r2{ position:relative; left:35px;}
+.r-list .area{height:35px;width:345px ;background:#fff;}
+.area .border1{float:left;border:1px solid #ddd; width:100px;height:50px;border-left: none;}
+.area .border2{float:left;border:1px solid #ddd;width:243px;height:50px;border-left: none; }
+.area span{position: relative;left:35px;color:#c8c9c9;top:5px;}
+.area p{position: relative;left:35px;top:5px;}
+.clearfix{position:relative;top:140px;left:35px;font-size: 14px;}
+/*border-radius: 5px;设置边角为圆形*/
+.clearfix .search{position:absolute;right:80px;border:0;height:25px;width:50px;background: #388ac1;border-radius: 5px;color:#fff;}
+
+
+.six{position:relative;width:890px;height:390px;background:#eeeeed;margin-top: 15px;margin-left: 75px;}
+.six .s-left{float:left; width:350px;height:390px;background: #fff;border-radius: 5px;}
+.s-left .data{width:100%;background: #f4f5f6;height: 40px;font-size: 14px;color:#b1b1b1;}
+.data p{position:relative;top:10px;left:20px;}
+.s-left .in_date{width:100%;height:350px;background: #fff;}
+.in_date .select_time{width:90%;height:40px;border-bottom: 1px solid #7ecaf0;margin:0 auto;}
+.select_time .w62,.w83,.w73{position: relative; float:left;font-size: 14px;top:10px;}
+.select_time .w62{border:1px solid #cacbcb; width:62px;height:20px;margin-right: 5px;}
+.select_time .w83{border:1px solid #cacbcb; width:83px;height:20px;margin-right: 5px;}
+.select_time .w73{border:1px solid #cacbcb; width:73px;height:20px;margin-right: 5px;}
+.select_time div:hover{cursor: pointer;}/*鼠标滑过显示小手*/
+.in_date .week-clearfix{width:90%;height:30px;border-bottom: 1px solid #ececed;margin:0 auto;}
+.week-clearfix ol li{position:relative;float:left;list-style: none;top:5px;width:14.2%;text-align: center;}
+/*这里有盒模型 重点！！！*/
+.in_date .day{width:90%;height:220px;border-bottom: 1px solid #ececed;margin:0 auto;}
+.day p b{display: block;font-weight: normal;}/*这里写display: inline-block;就会发生农历跟阳历并列一行的现象 为什么？？？
+为什么还有为什么写.day p {display: block;}也会发生这种现象？*/
+.day p{float: left;width: 40px;height: 40px;border: 1px solid #fff;box-sizing: border-box;margin-bottom: 2px;text-align: center;line-height: 20px;margin-right: 5px;color: #323333;font-size: 10px;}
+.day .mark{border:1px solid #f5c21d;}
+/*nth-child()规定属于其父元素(p)的序列为第7n和7n+6的子元素的背景色*/
+.day .holiday,.day p:nth-child(7n) span,.day p:nth-child(7n+6) span{color:#cd3539;}
+.day p:hover{cursor: pointer;border:1px solid #f5c21d;}
+
+.six .s-right{position: relative; float:left; width:530px;height:390px;background: #fff;border-radius: 5px;left:10px;}
+.s-right .brand{width:100%;background: #f4f5f6;height: 40px;font-size: 14px;color:#b1b1b1;}
+.brand p{position:relative;top:10px;left:20px;}
+.rank table{position: relative; border-collapse: collapse;left:40px;top:20px;text-align: center;font-size: 14px;}
+.rank td:hover{cursor: pointer;}
+.rank .l1{width:65px;height: 25px;}
+.rank .l2{width:90px;}
+.rank .l3{width:290px;}
+.rank td{height:25px;}
+
+.progress_bar{display: inline-block;width:168px;height:4px;background:#dcdcdc;position: relative;top:-1px;margin-left: 10px;}
+.progress_bar p{height:4px;}
+.rank table tr:nth-child(-n+4) p{background:#ec6d51;}/*选择第四行前面的 包括第四行*/
+.rank table tr:nth-child(n+5) p{background:#7ecaf0;}/*选择第五行后面的 包括第五行*/
+/*
+伪类选择器 :nth-child()  很重要！！！！
+nth-child(n+length);/*选择大于length后面的元素
+nth-child(-n+length)/*选择小于length前面的元素
+ */
+.w80_perc{width:80%;}
+.w70_perc{width:70%;}
+.w60_perc{width:60%;}
+.w55_perc{width:55%;}
+.w50_perc{width:50%;}
+.w40_perc{width:40%;}
+.w35_perc{width:35%;}
+.w30_perc{width:30%;}
+.w28_perc{width:28%;}
+.w25_perc{width:25%;}
+.w40_perc{width:40%;}
+
